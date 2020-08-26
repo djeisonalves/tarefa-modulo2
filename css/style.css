@@ -1,24 +1,177 @@
-ul {
-    list-style-type: none;
+* {
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #333;
+    box-sizing: border-box;
 }
 
-li {
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+img{
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.center {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.logo span {
     float: left;
+    font-size: 35px;
+    color: #da9031;
 }
 
-li a {
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    background: #069;
+}
+
+header li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+header a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    border-radius: 5px;
+}
+
+header a:hover {
+    background: rgb(212, 90, 34);
+}
+
+header nav ul li a:active {
+    background: rgb(212, 90, 34);
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/banner3.png");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+article {
+    margin-top: -50px;
+    padding-left: 20em;
+    padding-right: 20em;
+    line-height: 2em;
+    margin-bottom: 5em;
+}
+article h2{
+    padding-top: 5em;
+}
+.left {
+    margin-top: 10px;
+    padding: 20px;
+    left: 0px;
+    width: 450px;
+    border-radius: 5px;
+    background: #da9031;
+}
+.right {
+    margin-top: -20px;
+    padding: 20px;
+    right: 0px;
+    width: 450px;
+    margin-left: 62%;
+    border-radius: 5px;
+    background: #da9031;
+}
+.right img{
+    margin-left: -620px;
+    max-width: 1100px;
+}
+.left img{
+    max-width: 1100px;
+}
+.img{
+    background-image: url("../img/banner3.png");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: ;
+}
+.right img#casamento{
+    margin-left: -400px;
 }
 
 
-li a:hover {
-    background-color: #444444;
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    background: #da9031;
 }
+
+P {
+    text-align: left
+}
+
+H2 {
+    text-align: center
+}
+
+H3 {
+    text-align: center
+}
+
+form {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px 10px 30px 10px;
+}
+
+input, textarea {
+    width: 474px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.enviar input {
+    background-color: #069;
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.enviar input:hover {
+   background: #da9031;
+;
+}
+
+textarea {
+    width: 474px;
+    height: 120px;
+    line-height: 20px;
+}
+
