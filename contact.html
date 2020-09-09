@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
     <link rel="stylesheet" href="css/style.css">
+
+    <script type="text/javascript" src="js/validaContato.js"></script>
+    
 </head>
+
 <body>
     <header>
         <div class="center">
             <div class="logo">
-                <span>Festas & Eventos</span>
+                <img src="img/logo.png"/>
             </div>
             <nav>
                 <ul>
@@ -25,26 +30,27 @@
     </header>
     <div class="hero-image">
     </div>
-    <form name="form" action="" method="post">
-        <h1 style="text-align:center; font-style: oblique">Contato & Orçamento!</h1>
+    <form id="formulario" action="#" method="post" ">
+        <h1 style=" text-align:center; font-style: oblique">Contato & Orçamento!</h1>
         <p class="nome">
-            <input type="text" name="nome" placeholder="informe seu nome" required="required">
+            <input type="text" name="nome" placeholder="informe seu nome">
         </p>
         <p class="email">
-            <input type="email" name="email" placeholder="informe seu email" required="required">
+            <input type="email" name="email" placeholder="informe seu email">
         </p>
         <p class="assunto">
-            <input type="text" name="assunto" placeholder="informe o assunto" required="required">
+            <input type="text" name="assunto" placeholder="informe o assunto">
         </p>
         <p class="mensagem">
             <textarea name="mensagem" placeholder="deixe sua mensagem"></textarea>
         </p>
-        <p class="enviar">
-            <input type="submit" name="enviar" value="Enviar">
-        </p>
+
+        <button id="btn2" type="button" class="botao" onclick="validaContato();">Enviar</button>
     </form>
     <footer>
         <p>©Copyright 2020 Festas & Eventos. Todos os Direitos Reservados.</p>
     </footer>
+
 </body>
+
 </html>

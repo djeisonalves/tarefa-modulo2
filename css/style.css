@@ -18,6 +18,36 @@ img{
     margin-top: 15px;
     border-radius: 5px;
 }
+
+#btn1{
+margin-top: 250px;
+align-items: center;
+margin-left: 50%;
+padding: 20px;
+font-size: 20px; 
+border:1px solid #da9031;
+border-radius: 5px;
+background-color: #da9031;
+}
+#btn1:hover{
+    border:1px solid #fff;
+    background-color: #eb8602;
+    cursor:pointer;
+}
+#btn2{
+    padding: 10px;
+    font-size: 14px;
+    border:1px solid #fff;
+    border-radius: 5px;
+    background-color: #da9031;
+    cursor: pointer;
+    color:#fff;
+}
+#btn2:hover{
+    border:1px solid #fff;
+    background-color: #eb8602;
+    cursor:pointer;
+}
 .center {
     max-width: 1100px;
     margin: 0 auto;
@@ -69,7 +99,15 @@ header nav ul li a:active {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+#img-inicial{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#pg-inicial{
+    margin-top:70px;
+    text-align:center;
+}
 article {
     margin-top: -50px;
     padding-left: 20em;
@@ -78,7 +116,7 @@ article {
     margin-bottom: 5em;
 }
 article h2{
-    padding-top: 5em;
+    padding-top: 1em;
 }
 .left {
     margin-top: 10px;
